@@ -27,3 +27,8 @@ tqdm==4.47.0
 pickle==0.7.5
 ```
 ## Run the code  
+```
+git clone https://github.com/zaixizhang/CoGen.git
+cd CoGen
+sh train.sh 
+```
