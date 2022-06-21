@@ -1,5 +1,5 @@
 # CoGen
-<div align=center><img src="https://github.com/zaixizhang/graphbackdoor/blob/main/illustration.pdf" width="700"/></div>
+<div align=center><img src="https://github.com/zaixizhang/graphbackdoor/blob/main/flow generation.pdf" width="700"/></div>
 
 ## Abstract   
 Designing molecules with desirable physicochemical and pharmacological properties is a long-standing challenge in chemistry
