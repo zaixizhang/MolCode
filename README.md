@@ -26,6 +26,10 @@ networkx==2.4
 tqdm==4.47.0
 pickle==0.7.5
 ```
+
+## Datasets
+Download QM9 data from https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/gdb9.tar.gz, unzip the file and put the file gdb9.sdf under the folder qm9/
+
 ## Run the code  
 ```
 git clone https://github.com/zaixizhang/CoGen.git
