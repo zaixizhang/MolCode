@@ -22,5 +22,5 @@ Download QM9 data from https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/
 ```
 git clone https://github.com/zaixizhang/CoGen.git
 cd CoGen
-sh train.sh 
+sh start.sh 
 ```
