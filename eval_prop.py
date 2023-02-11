@@ -116,7 +116,7 @@ def compute_alpha(mol_dict, valid_list, out_path):
     return {'mean': mean, 'median': median, 'best': best, 'good_per': good_per}, alpha_list
 
 if __name__ == '__main__':
-    out_path = '/apdcephfs/private_zaixizhang/exp_gen/7/'
+    out_path = '/zaixizhang/exp_gen/'
     mol_dict = pickle.load(open(out_path+'0.50_0.70_0.50_0.70_0.50.mol_dict', 'rb'))
     results, valid_list, con_mat_list = check_validity(mol_dict, out_path)
     bond_dist = bond_stats(mol_dict, valid_list, con_mat_list)
