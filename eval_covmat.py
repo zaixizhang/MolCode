@@ -10,8 +10,8 @@ from tqdm.auto import tqdm
 
 from utils.covmat import get_rmsd_confusion_matrix
 
-out_path = '/apdcephfs/private_zaixizhang/exp_gen/13/'
-data_list = pickle.load(open('/apdcephfs/private_zaixizhang/exp_gen/13/0.30_0.50_0.50_0.50_0.30.pkl', 'rb'))
+out_path = '/zaixizhang/exp_gen/'
+data_list = pickle.load(open('/zaixizhang/exp_gen/0.30_0.50_0.50_0.50_0.30.pkl', 'rb'))
 
 # Evaluator
 cov_list = []
