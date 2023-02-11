@@ -102,3 +102,4 @@ if __name__ == '__main__':
                         help='torsion_temp')
     args = parser.parse_args()
     generate(args.node, args.dist, args.angle, args.torsion, args.edge)
+    
