@@ -3,8 +3,8 @@ from runner import Runner
 import os
 import torch
 
-out_path = '/apdcephfs/private_zaixizhang/exp_gen/1/'
-root_path = '/apdcephfs/private_zaixizhang/data/drugs_processed/'
+out_path = 'zaixizhang/exp_gen/'
+root_path = 'zaixizhang/data/drugs_processed/'
 if not os.path.isdir(out_path):
     os.mkdir(out_path)
 
