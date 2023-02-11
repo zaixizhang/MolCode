@@ -294,4 +294,3 @@ class QM9Gen(Dataset):
         data_batch['new_bond_type'] = new_bond_type.view(-1)
 
         return data_batch
-
