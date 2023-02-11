@@ -28,4 +28,4 @@ for idx in subset_idxs:
         if not (z1, z2, bond_type) in bond_dist:
             bond_dist[(z1, z2, bond_type)] = []
         bond_dist[(z1, z2, bond_type)].append(np.linalg.norm(position[start] - position[end]))
-np.save('/apdcephfs/private_zaixizhang/exp_gen/target_dist.npy', bond_dist)
+np.save('/zaixizhang/exp_gen/target_dist.npy', bond_dist)
