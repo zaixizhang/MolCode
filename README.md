@@ -14,7 +14,7 @@ structure-based drug design. Particularly, MolCode not only consistently generat
 Uniqueness) molecular graphs/structures with desirable properties, but also generate drug-like molecules with high affinity
 to target proteins (61.8% high affinity ratio), which demonstrate MolCode’s potential applications in material design and drug
 discovery. Our investigation reveals that the 2D topology and 3D geometry contain intrinsically complementary information in
-molecule generation, and provides new insights into machine learning-based molecule representatio
+molecule generation, and provides new insights into machine learning-based molecule representation and generation.
 
 ## Datasets
 Download QM9 data from https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/gdb9.tar.gz, unzip the file and put the file gdb9.sdf under the folder qm9/
