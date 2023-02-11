@@ -14,7 +14,7 @@ def generate(node_temp, dist_temp, angle_temp, torsion_temp, bond_temp):
     max_atoms = 35
     focus_th = 0.5
     num_gen = 1000
-    out_path = '/apdcephfs/private_zaixizhang/exp_gen/7/'
+    out_path = '/zaixizhang/exp_gen/'
 
     runner.model.load_state_dict(torch.load('/apdcephfs/private_zaixizhang/exp_gen/7/best_valid1.pth', map_location='cuda:0'))
     mol_dicts = runner.generate(num_gen, temperature=[node_temp, dist_temp, angle_temp, torsion_temp, bond_temp], max_atoms=max_atoms, min_atoms=min_atoms, focus_th=focus_th, add_final=False)
