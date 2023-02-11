@@ -19,7 +19,7 @@ molecule generation, and provides new insights into machine learning-based molec
 ## Datasets
 Download QM9 data from https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/gdb9.tar.gz, unzip the file and put the file gdb9.sdf under the folder qm9/
 
-The CrossDocked2020 datasets is public available at [https://drive.google.com/drive/folders/1CzwxmTpjbrt83z_wBzcQncq84OVDPurM]
+The CrossDocked2020 datasets is public available at https://drive.google.com/drive/folders/1CzwxmTpjbrt83z_wBzcQncq84OVDPurM
 
 ## Run the code  
 ```
