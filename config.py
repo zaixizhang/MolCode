@@ -1,5 +1,4 @@
 conf = {}
-
 conf_model = {}
 conf_model['cutoff'] = 5.0
 conf_model['num_node_types'] = 5
