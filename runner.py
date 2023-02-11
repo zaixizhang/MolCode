@@ -8,7 +8,6 @@ import torch.optim as optim
 from torch_scatter import scatter
 import torch.nn as nn
 
-
 class Runner():
     def __init__(self, conf, root_path, atomic_num_to_type={1:0, 6:1, 7:2, 8:3, 9:4}, out_path=None):
         self.conf = conf
