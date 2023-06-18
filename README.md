@@ -21,6 +21,12 @@ Download QM9 data from https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/
 
 The CrossDocked2020 datasets is public available at https://drive.google.com/drive/folders/1CzwxmTpjbrt83z_wBzcQncq84OVDPurM
 
+## Install conda environment via conda yaml file
+```bash
+conda env create -f molcode_env.yaml
+conda activate molcode_env
+```
+
 ## Run the code  
 ```
 git clone https://github.com/zaixizhang/MolCode.git
